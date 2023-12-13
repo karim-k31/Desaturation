@@ -33,7 +33,8 @@ input[type="checkbox"]{
 .container{
   display: none;
   background: #fff;
-  width: 410px;
+  width: 60%;
+  height: 22%;
   padding: 30px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
@@ -51,7 +52,7 @@ input[type="checkbox"]{
   color: #3498db;
 }
 .container .text{
-  font-size: 35px;
+  font-size: 4rem;
   font-weight: 600;
   text-align: center;
 }
@@ -59,18 +60,18 @@ input[type="checkbox"]{
   margin-top: -20px;
 }
 .container form .data{
-  height: 45px;
+  height: 100%;
   width: 100%;
   margin: 40px 0;
 }
 form .data label{
-  font-size: 18px;
+  font-size: 2rem;
 }
 form .data input{
   height: 100%;
   width: 100%;
   padding-left: 10px;
-  font-size: 17px;
+  font-size: 3rem;
   border: 1px solid silver;
 }
 form .data input:focus{
